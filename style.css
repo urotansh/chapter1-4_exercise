@@ -1,0 +1,47 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-top {
+  height: 50px;
+  background-color: red;
+}
+
+.header-bottom {
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  height: 1400px;
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: palegreen;
+}
+
+.main-left {
+  width: 230px;
+}
+
+.main-center {
+  width: 500px;
+  background-color: limegreen;
+}
+
+.main-right {
+  width: 230px;
+}
+
+.footer {
+  height: 100px;
+  background-color: blue;
+}
